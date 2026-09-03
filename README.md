@@ -44,6 +44,11 @@ For the best performance and longer runtime, consider upgrading to Colab Pro. It
 
 ## 📜 Change Log
 
+### v1.0.1 (2026-23-08)
+- Fixed python versioning (Python 3.10.12)
+- Fixed python packages that cannot be installed
+- Optimized workflow
+
 ### v1.0.0 (2024-10-14)
 - 🎉 Initial release
 

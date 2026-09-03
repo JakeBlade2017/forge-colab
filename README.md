@@ -1,6 +1,6 @@
 # Cagliostro Forge Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cagliostrolab/forge-colab/blob/main/cagliostro-forge-colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JakeBlade2017/forge-colab/blob/main/cagliostro-forge-colab.ipynb)
 
 Welcome to the next evolution of Stable Diffusion notebooks! This is the successor to the [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-notebook-collection/blob/main/cagliostro-colab-ui.ipynb), now supercharged with [lllyasviel/stable-diffusion-webui-forge](https://github.com/lllyasviel/stable-diffusion-webui-forge).
 
@@ -18,14 +18,13 @@ Welcome to the next evolution of Stable Diffusion notebooks! This is the success
 
 ## 🚀 Usage
 
-1. 📂 Open the [notebook](https://github.com/cagliostrolab/forge-colab/blob/main/cagliostro-forge-colab.ipynb) in Google Colab
+1. 📂 Open the [notebook](https://colab.research.google.com/github/JakeBlade2017/forge-colab/blob/main/cagliostro-forge-colab.ipynb) in Google Colab
 2. ⚙️ Configure the settings in the installation cell
 3. ▶️ Run the cells to set up the environment and launch the Web UI
-4. 💾 Use the download cell to save your generated images
+4. ~~*💾 Use the download cell to save your generated images*~~
 
-Watch this video for a detailed walkthrough:
-
-[![Cagliostro Forge Colab Tutorial](https://img.youtube.com/vi/9bbeYXpc30w/0.jpg)](https://www.youtube.com/watch?v=9bbeYXpc30w)
+*Download cell for now has been removed because is not working* \
+Please use Save on Google Drive if you want to save your generated images
 
 ## 🎨 Models
 
@@ -43,9 +42,12 @@ You can also specify custom model URLs for download.
 For the best performance and longer runtime, consider upgrading to Colab Pro. It provides access to better GPUs and extended session times, significantly enhancing your image generation experience.
 
 ## 📜 Change Log
+### v1.0.2 (2026-01-09)
+- Fixed huggingface library error
+- Removed download cell
 
 ### v1.0.1 (2026-23-08)
-- Fixed python versioning (Python 3.10.12)
+- Fixed python versioning (Now uses Python 3.10.12)
 - Fixed python packages that cannot be installed
 - Optimized workflow
 
